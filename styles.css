@@ -19,6 +19,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        margin-bottom: 60px;
     }
       .logo{
         width: 90px;
@@ -70,7 +71,7 @@
       }
       .buttons button a{
         text-decoration: none;
-        cursor: pointer;
+       
         
       }
       /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -108,4 +109,60 @@
           }
        
       }
- 
+ section{
+
+    .hero-text{
+        width: 550px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        p{
+            line-height: 30px;
+        }
+    }
+    
+    .button-hero button{
+        padding: 12px;
+        border-radius: 15px;
+        cursor: pointer;
+        background-color:  rgb(15, 166, 85);
+
+    }
+    .button-hero button:hover{
+        background-color: rgb(188, 194, 192);
+        color: black;
+        transition: all ease-in-out 1s;
+      }
+      .button-hero button a{
+        text-decoration: none;
+        cursor: pointer;
+        
+      }
+ }
+ @media screen and (max-width: 600px) {
+    section{
+
+        .hero-text{
+            line-height: 28px;
+            width: 75%;
+            display: flex;
+            margin: auto;
+            text-align: end;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            
+        }
+        .button-hero button{
+            padding: 12px;
+            border-radius: 15px;
+            cursor: pointer;
+
+        }
+     } 
+ }
