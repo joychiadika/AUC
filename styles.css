@@ -19,7 +19,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-bottom: 60px;
+        margin-bottom: 100px;
     }
       .logo{
         width: 90px;
@@ -129,10 +129,11 @@
         display: flex;
         justify-content: center;
         margin-top: 40px;
+        margin-bottom: -60px;
     }
     
     .button-hero button{
-        padding: 12px;
+        padding: 20px;
         border-radius: 15px;
         cursor: pointer;
         background-color:  rgb(15, 166, 85);
@@ -171,6 +172,13 @@
             cursor: pointer;
 
         }
+        .button-hero{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-bottom: -30px;
+        }
+        
      } 
  }
  section{
