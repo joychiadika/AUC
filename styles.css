@@ -130,6 +130,7 @@
         border-radius: 15px;
         cursor: pointer;
         background-color:  rgb(15, 166, 85);
+        border: none;
 
     }
     .button-hero button:hover{
