@@ -188,3 +188,148 @@
         padding: 10%;
     }
  }
+ /*our story + numbers section styling*/
+ section{
+    .our-story{
+        width: 100%;
+        padding: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .before-numbers{
+          
+
+            .numbers-section{
+                display: flex;
+                margin-top: 40px;
+                gap: 20px;
+            }
+        }
+
+       
+        .numbers-image{
+            
+            width: 100%;
+        }
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .our-story{
+        width: 100%;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+ }
+ @media only screen and (min-width: 1440px) and (max-width: 1800px) { 
+    header{
+        margin-bottom: 250px;
+
+        .logo{
+            width: 180px;
+            height: 120px;
+            padding: 0;
+          }
+          
+          /* Style the header links */
+          .header a {
+            font-size: 38px;
+           
+          }
+          .buttons button{
+            font-size: 38px;
+            padding: 25px;
+          }
+
+    }
+    section{
+
+        .hero-text{
+            width: 950px;
+            display: flex;
+
+            h2{
+                font-size: 46px;
+                margin-bottom: 19px;
+            }
+    
+            p{
+                line-height: 55px;
+                font-size: 33px;
+            }
+        } 
+        .button-hero button{
+            padding: 40px;
+            border-radius: 15px;
+            font-size: 30px;
+            cursor: pointer;
+            background-color:  rgb(15, 166, 85);
+        }
+    }
+    section{
+        .our-story{
+            font-size: 24px;
+        }
+    }
+ }
+
+ @media only screen and (min-width: 1800px) and (max-width: 2560px) { 
+    header{
+        margin-bottom: 250px;
+
+        .logo{
+            width: 250px;
+            height: 160px;
+            padding: 0;
+          }
+          
+          /* Style the header links */
+          .header a {
+            font-size: 46px;
+           
+          }
+          .buttons button{
+            font-size: 50px;
+            padding: 25px;
+          }
+
+    }
+    section{
+
+        .hero-text{
+            width: 1500px;
+            display: flex;
+
+            h2{
+                font-size: 76px;
+                margin-bottom: 69px;
+            }
+    
+            p{
+                line-height: 105px;
+                font-size: 53px;
+            }
+        } 
+        .button-hero button{
+            padding: 60px;
+            border-radius: 15px;
+            font-size: 50px;
+            cursor: pointer;
+            background-color:  var(--primary-color);
+            margin-top: 70px;
+        }
+    }
+    section{
+        .our-story{
+            font-size: 34px;
+
+            .numbers-section{
+                gap: 50px;
+            }
+        }
+    }
+ }
