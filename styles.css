@@ -14,7 +14,7 @@
 
     .header {
         overflow: hidden;
-        background-color: #f1f1f1;
+        /* background-color: #f1f1f1; */
         padding: 15px 0px 5px 5px;
         display: flex;
         align-items: center;
@@ -22,8 +22,8 @@
         margin-bottom: 100px;
     }
       .logo{
-        width: 90px;
-        height: 50px;
+        width: 140px;
+        height: 90px;
         padding: 0;
       }
       
@@ -60,9 +60,10 @@
       }
   
       .buttons button{
-        padding: 12px;
+        padding: 18px;
         border-radius: 15px;
         cursor: pointer;
+        border: none;
       }
       .buttons button:hover{
         background-color: rgb(15, 166, 85);
@@ -75,12 +76,18 @@
         
       }
       /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
 
         .header{
             display: flex;
             flex-direction: column;
 
+            .logo{
+                width: 180px;
+                height: 110px;
+                padding: 0;
+              }
+              
             .buttons{
                 display: flex;
                 flex-direction: row;
@@ -151,12 +158,13 @@
         
       }
  }
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 800px) {
     section{
 
         .hero-text{
-            line-height: 28px;
-            width: 75%;
+            line-height: 40px;
+            width: 85%;
+            font-size: 22px;
             display: flex;
             margin: auto;
             text-align: end;
@@ -164,10 +172,13 @@
             justify-content: center;
             align-items: center;
 
-            
+            p{
+                line-height: 39px;
+            }
         }
+        
         .button-hero button{
-            padding: 12px;
+            padding: 20px;
             border-radius: 15px;
             cursor: pointer;
 
@@ -176,7 +187,7 @@
             display: flex;
             justify-content: center;
             margin-top: 40px;
-            margin-bottom: -30px;
+            margin-bottom: 30px;
         }
         
      } 
@@ -185,14 +196,14 @@
 
     .hero-image{
         width: 100%;
-        padding: 10%;
+        padding: 5%;
     }
  }
  /*our story + numbers section styling*/
  section{
     .our-story{
         width: 100%;
-        padding: 10%;
+        padding-left: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -225,7 +236,20 @@
         gap: 80px;
     }
  }
- @media only screen and (min-width: 1440px) and (max-width: 1800px) { 
+
+ @media screen and (max-width: 600px) {
+    .how-we-section{
+        width: 100%;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+ }
+
+ @media only screen and (min-width: 1440px) and (max-width: 1900px) { 
     header{
         margin-bottom: 250px;
 
@@ -249,17 +273,17 @@
     section{
 
         .hero-text{
-            width: 950px;
+            width: 1000px;
             display: flex;
 
             h2{
-                font-size: 46px;
+                font-size: 70px;
                 margin-bottom: 19px;
             }
     
             p{
-                line-height: 55px;
-                font-size: 33px;
+                line-height: 75px;
+                font-size: 43px;
             }
         } 
         .button-hero button{
@@ -275,9 +299,10 @@
             font-size: 24px;
         }
     }
+   
  }
 
- @media only screen and (min-width: 1800px) and (max-width: 2560px) { 
+ @media only screen and (min-width: 2400px) and (max-width: 2560px) { 
     header{
         margin-bottom: 250px;
 
@@ -289,7 +314,8 @@
           
           /* Style the header links */
           .header a {
-            font-size: 46px;
+            font-size: 56px;
+            margin-right: 20px;
            
           }
           .buttons button{
@@ -301,7 +327,7 @@
     section{
 
         .hero-text{
-            width: 1500px;
+            width: 1700px;
             display: flex;
 
             h2{
@@ -310,14 +336,14 @@
             }
     
             p{
-                line-height: 105px;
-                font-size: 53px;
+                line-height: 120px;
+                font-size: 70px;
             }
         } 
         .button-hero button{
             padding: 60px;
             border-radius: 15px;
-            font-size: 50px;
+            font-size: 66px;
             cursor: pointer;
             background-color:  var(--primary-color);
             margin-top: 70px;
@@ -325,11 +351,103 @@
     }
     section{
         .our-story{
-            font-size: 34px;
+            font-size: 44px;
 
             .numbers-section{
                 gap: 50px;
             }
         }
     }
+   
  }
+ section{
+    .how-we-section{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            margin-top: 40px;
+            margin-bottom: 30px;
+            font-size: 27px;
+            text-align: center;
+        }
+    
+    .how-we{
+        width: 100%;
+    }
+}
+ }
+ @media only screen and (min-width: 1000px) and (max-width: 1442px) { 
+ .how-we-section{
+        
+
+    h1{
+        display: grid;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 130px;
+        font-size: 57px;
+        align-items: center;
+
+    }
+
+.how-we{
+    width: 100%;
+}
+}
+ }
+
+ @media only screen and (min-width: 2400px) and (max-width: 2560px) {  
+    section{
+        .how-we-section{
+            
+    
+            h1{
+                display: grid;
+                justify-content: center;
+                margin-top: 120px;
+                margin-bottom: 90px;
+                font-size: 104px;
+                align-items: center;
+        
+            }
+ }
+}
+  }
+
+  /*footer styling*/
+  footer{
+    background-color: #183f29;
+
+    .auc-footer{
+        display: flex;
+        justify-content: flex-start;
+        justify-content: space-around;
+        padding: 5%;
+
+        .first-footer-text{
+            color: #fff;
+        }
+        .second-footer-text{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        .third-footer-text{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+  }
