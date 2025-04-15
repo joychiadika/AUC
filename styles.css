@@ -134,6 +134,7 @@
 
     .button-hero{
         display: flex;
+        cursor: pointer;
         justify-content: center;
         margin-top: 40px;
         margin-bottom: -60px;
@@ -360,6 +361,62 @@
     }
    
  }
+ .updated-section{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    padding: 15px;
+    
+
+
+.updated{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 29px;
+    height: auto;
+    width: 650px;
+    background-color: #183f29;
+    font-size: 23px;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 10px rgb(49, 74, 99);
+
+ button{
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 22px;
+ }
+ button:hover{
+    background-color: #044110;
+    color: #fff;
+ }
+}
+}
+@media only screen and (min-width: 2400px) and (max-width: 2560px) { 
+
+    .updated-section{
+        margin-top: 140px;
+       
+        .updated{
+            width: 900px;
+            height: auto;
+
+            h1{
+                font-size: 45px;
+            }
+
+            button{
+                padding: 29px;
+                font-size: 32px;
+            }
+        }
+    }
+}
+
  section{
     .how-we-section{
         display: grid;
@@ -378,6 +435,7 @@
     }
 }
  }
+
  @media only screen and (min-width: 1000px) and (max-width: 1442px) { 
  .how-we-section{
         
@@ -416,6 +474,7 @@
 }
   }
 
+  
   /*footer styling*/
   footer{
     width: 100%;
@@ -542,3 +601,13 @@
         height: auto;
     }
   }
+
+body{
+
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+      }
+}
