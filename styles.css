@@ -238,6 +238,10 @@
         justify-content: center;
         align-items: center;
         gap: 80px;
+
+        .numbers-image{  
+            width: 100%;
+        }
     }
  }
 
@@ -249,6 +253,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+
+    .how-we{
+        width: 100%;
+    }
     
     }
     
@@ -460,7 +469,7 @@
 
  @media only screen and (min-width: 1000px) and (max-width: 1442px) { 
  .how-we-section{
-        
+        width: 100%;
 
     h1{
         display: grid;
@@ -784,6 +793,9 @@ section{
     
   }
 }
+.hero-image{
+    width: 100%;
+}
   section{
     .our-story{
         width: 100%;
@@ -806,7 +818,6 @@ section{
 
        
         .numbers-image{
-            
             width: 100%;
         }
     }
@@ -868,6 +879,7 @@ section{
         display: grid;
         justify-content: center;
         align-items: center;
+        width: 100%;
 
         h1{
             margin-top: 40px;
