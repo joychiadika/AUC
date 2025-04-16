@@ -76,7 +76,7 @@
         color: #000;
       }
       /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 930px) {
 
         .header{
             display: flex;
@@ -157,7 +157,7 @@
         
       }
  }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 930px) {
     section{
 
         .hero-text{
@@ -229,7 +229,7 @@
         }
     }
  }
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 930px) {
     .our-story{
         width: 100%;
         padding: 10%;
@@ -241,7 +241,7 @@
     }
  }
 
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 930px) {
     .how-we-section{
         width: 100%;
         padding: 5%;
@@ -406,7 +406,7 @@
  }
 }
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 930px){
     .updated-section{
 
         .updated{
@@ -558,7 +558,7 @@
     }
   }
 
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 930px){
     footer{
         width: 100%;
         display: flex;
