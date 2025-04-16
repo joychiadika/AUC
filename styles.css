@@ -134,7 +134,6 @@
 
     .button-hero{
         display: flex;
-        cursor: pointer;
         justify-content: center;
         margin-top: 40px;
         margin-bottom: -60px;
@@ -143,7 +142,6 @@
     .button-hero button{
         padding: 20px;
         border-radius: 15px;
-        cursor: pointer;
         background-color:  rgb(15, 166, 85);
         border: none;
 
@@ -189,6 +187,7 @@
             justify-content: center;
             margin-top: 40px;
             margin-bottom: 30px;
+            cursor: pointer;
         }
         
      } 
@@ -250,7 +249,7 @@
     }
  }
 
- @media only screen and (min-width: 1440px) and (max-width: 1900px) { 
+ @media only screen and (min-width: 1440px) and (max-width: 2560px) { 
     header{
         margin-bottom: 250px;
 
@@ -382,12 +381,12 @@
     font-size: 23px;
     color: #fff;
     border-radius: 25px;
-    box-shadow: 10px rgb(49, 74, 99);
 
  button{
     padding: 20px;
     border-radius: 25px;
     cursor: pointer;
+    border: none;
     font-size: 22px;
  }
  button:hover{
