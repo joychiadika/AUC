@@ -241,7 +241,7 @@
     }
  }
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 800px) {
     .how-we-section{
         width: 100%;
         padding: 5%;
@@ -251,6 +251,7 @@
         align-items: center;
     
     }
+    
  }
 
  @media only screen and (min-width: 1440px) and (max-width: 2560px) { 
@@ -303,7 +304,9 @@
             font-size: 24px;
         }
     }
-   
+   .updated{
+    font-size: 20px;
+   }
  }
 
  @media only screen and (min-width: 2400px) and (max-width: 2560px) { 
@@ -392,7 +395,7 @@
     cursor: pointer;
     border: none;
     color: #000;
-    font-size: 22px;
+    font-size: 20px;
  }
   a{
     text-decoration: none;
@@ -401,6 +404,18 @@
     background-color: #044110;
     color: #fff;
  }
+}
+}
+@media only screen and (max-width: 800px){
+    .updated-section{
+
+        .updated{
+            font-size: 14px;
+
+            button{
+                font-size: 15px;
+        }
+    }
 }
 }
 @media only screen and (min-width: 2400px) and (max-width: 2560px) { 
