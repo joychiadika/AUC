@@ -179,6 +179,7 @@
         .button-hero button{
             padding: 20px;
             border-radius: 15px;
+            color: #fff;
             cursor: pointer;
 
         }
@@ -188,6 +189,9 @@
             margin-top: 40px;
             margin-bottom: 30px;
             cursor: pointer;
+        }
+        .button-hero a{
+            text-decoration: none;
         }
         
      } 
@@ -387,7 +391,11 @@
     border-radius: 25px;
     cursor: pointer;
     border: none;
+    color: #000;
     font-size: 22px;
+ }
+  a{
+    text-decoration: none;
  }
  button:hover{
     background-color: #044110;
@@ -405,7 +413,7 @@
             height: auto;
 
             h1{
-                font-size: 45px;
+                font-size: 40px;
             }
 
             button{
@@ -444,9 +452,12 @@
         justify-content: center;
         margin-top: 80px;
         margin-bottom: 130px;
-        font-size: 57px;
+        font-size: 37px;
         align-items: center;
 
+    }
+    a{
+        color: black;
     }
 
 .how-we{
