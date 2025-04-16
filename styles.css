@@ -76,7 +76,7 @@
         color: #000;
       }
       /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-      @media screen and (max-width: 930px) {
+      @media screen and (max-width: 800px) {
 
         .header{
             display: flex;
@@ -157,7 +157,7 @@
         
       }
  }
- @media screen and (max-width: 930px) {
+ @media screen and (max-width: 800px) {
     section{
 
         .hero-text{
@@ -229,7 +229,7 @@
         }
     }
  }
- @media screen and (max-width: 930px) {
+ @media screen and (max-width: 800px) {
     .our-story{
         width: 100%;
         padding: 10%;
@@ -241,7 +241,7 @@
     }
  }
 
- @media screen and (max-width: 930px) {
+ @media screen and (max-width: 800px) {
     .how-we-section{
         width: 100%;
         padding: 5%;
@@ -406,7 +406,7 @@
  }
 }
 }
-@media only screen and (max-width: 930px){
+@media only screen and (max-width: 800px){
     .updated-section{
 
         .updated{
@@ -558,7 +558,7 @@
     }
   }
 
-  @media only screen and (max-width: 930px){
+  @media only screen and (max-width: 800px){
     footer{
         width: 100%;
         display: flex;
@@ -635,4 +635,310 @@ body{
         align-items: center;
         margin-top: 100px;
       }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 926px){
+body{
+    width: 100%;
+
+
+    .header {
+        overflow: hidden;
+        /* background-color: #f1f1f1; */
+        padding: 15px 0px 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
+      .logo{
+        width: 140px;
+        height: 90px;
+        padding: 0;
+      }
+      
+      /* Style the header links */
+      .header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+    
+      
+      /* Change the background color on mouse-over */
+      .header a:hover {
+        background-color: #c6c6c6;
+        color: black;
+        transition: all ease-in-out 1s;
+      }
+      
+      /* Style the active/current link*/
+      .header a.active {
+        background-color: var(--primary-color);
+        color: white;
+      }
+      
+      /* Float the link section to the right */
+      .header-right {
+        float: right;
+      }
+  
+      .buttons button{
+        padding: 18px;
+        border-radius: 15px;
+        cursor: pointer;
+        color: #000;
+        border: none;
+      }
+      .buttons button:hover{
+        background-color: rgb(15, 166, 85);
+        color: white;
+        transition: all ease-in-out 1s;
+      }
+      .buttons a{
+        text-decoration: none;
+        color: #000;
+      }
+      .header{
+        display: flex;
+        flex-direction: column;
+
+        .logo{
+            width: 180px;
+            height: 110px;
+            padding: 0;
+          }
+          
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .buttons button:hover{
+            background-color: rgb(15, 166, 85);
+            color: white;
+            transition: all ease-in-out 1s;
+          }
+    }
+    
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+      .buttons button a{
+        text-decoration: none;
+        cursor: pointer;
+        
+      }
+   
+  }
+section{
+
+.hero-text{
+    width: 550px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    p{
+        line-height: 30px;
+    }
+}
+
+.button-hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: -60px;
+}
+
+.button-hero button{
+    padding: 20px;
+    border-radius: 15px;
+    background-color:  rgb(15, 166, 85);
+    border: none;
+
+}
+.button-hero button:hover{
+    background-color: #bcc2c0;
+    color: black;
+    transition: all ease-in-out 1s;
+  }
+  .button-hero button a{
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+}
+  section{
+    .our-story{
+        width: 100%;
+        display: flex;
+        padding: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+        .before-numbers{
+          
+
+            .numbers-section{
+                display: flex;
+                margin-top: 40px;
+                gap: 20px;
+            }
+        }
+
+       
+        .numbers-image{
+            
+            width: 100%;
+        }
+    }
+ }
+ .how-we-section{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+section{
+    .updated-section{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px;
+        padding: 15px;
+        
+    
+    
+    .updated{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 29px;
+        height: auto;
+        width: 650px;
+        background-color: #183f29;
+        font-size: 23px;
+        color: #fff;
+        border-radius: 25px;
+    
+     button{
+        padding: 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        border: none;
+        color: #000;
+        font-size: 20px;
+     }
+      a{
+        text-decoration: none;
+     }
+     button:hover{
+        background-color: #044110;
+        color: #fff;
+     }
+    }
+    }
+}
+section{
+    .how-we-section{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            margin-top: 40px;
+            margin-bottom: 30px;
+            font-size: 27px;
+            text-align: center;
+        }
+    
+    .how-we{
+        width: 100%;
+    }
+}
+ }
+ footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #183f29;
+    font-size: small;
+    font-weight: lighter;
+    height: auto;
+
+    .auc-footer{
+        width: 100%;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 5%;
+        
+
+        p{
+            text-align: start;
+        }
+
+        .first-footer-text{
+            color: #fff;
+            width: 55%;
+        }
+        .second-footer-text{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        .third-footer-text{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+    hr{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    p{
+       text-align: start;
+       padding: 3%;
+       color: #fff;
+       margin-top: 13px;
+    }
+  }
 }
